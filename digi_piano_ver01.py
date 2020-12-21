@@ -122,5 +122,5 @@ while True:
   print(key)
   if key in pitchs:
     play_pitch(pitchs[key], duration)
-  if (key == "_"):
+  elif key == "_":
     break
